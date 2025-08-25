@@ -8,20 +8,17 @@ export default function Home() {
       </h1>
       <Link
         to="/bulk-insert-images"
-        className="block mt-4 text-center text-blue-500 hover:underline"
-      >
+        className="block mt-4 text-center text-blue-500 hover:underline">
         bulk upload images
       </Link>
       <Link
         to="/upload-single-image"
-        className="block mt-4 text-center text-blue-500 hover:underline"
-      >
+        className="block mt-4 text-center text-blue-500 hover:underline">
         upload company logo and single image
       </Link>
       <Link
         to="/bulk-insert-companies"
-        className="block mt-4 text-center text-blue-500 hover:underline"
-      >
+        className="block mt-4 text-center text-blue-500 hover:underline">
         upload companies
       </Link>
     </main>
